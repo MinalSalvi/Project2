@@ -3,13 +3,13 @@
     padding: 30px;
   }
   
- 
   
   /* CARDS */
   
   .cards {
     display: flex;
     flex-wrap: wrap;
+    color:green;
     justify-content: space-between;
   }
   
