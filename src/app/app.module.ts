@@ -7,6 +7,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { ContentComponent } from './content/content.component';
 import { EducationComponent } from './education/education.component';
 import { UpCounterComponent } from './up-counter/up-counter.component';
+import { RAndSComponent } from './r-and-s/r-and-s.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { UpCounterComponent } from './up-counter/up-counter.component';
     SideNavComponent,
     ContentComponent,
     EducationComponent,
-    UpCounterComponent
+    UpCounterComponent,
+    RAndSComponent,
+    
   ],
   imports: [
     BrowserModule,
