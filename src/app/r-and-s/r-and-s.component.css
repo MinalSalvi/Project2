@@ -7,7 +7,49 @@ border: 1px solid;
 }
 
 .table-wraper table td{
-    padding: 2px;
-    border: 1px solid;
-    border-color: blue;
+    padding: 2vh;
+    /* border: 1px solid; */
+    /* border-color: blue; */
+
 }
+
+.main-container{
+    display: flex;
+    padding: 10vh;
+    align-items: center;
+    /* justify-content: space-evenly; */ 
+    gap: 20vh;
+  /* border: 1px solid; */
+  align-items: center;
+
+}
+
+.vl {
+    border-left: 6px solid orange;
+    height: 80vh;
+  }
+
+  .typewriter h1 {
+    color:orange;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .30em;
+    animation: 
+      typing 5.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }

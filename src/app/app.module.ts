@@ -8,6 +8,7 @@ import { ContentComponent } from './content/content.component';
 import { EducationComponent } from './education/education.component';
 import { UpCounterComponent } from './up-counter/up-counter.component';
 import { RAndSComponent } from './r-and-s/r-and-s.component';
+import { RecentlyAccComponent } from './recently-acc/recently-acc.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { RAndSComponent } from './r-and-s/r-and-s.component';
     EducationComponent,
     UpCounterComponent,
     RAndSComponent,
+    RecentlyAccComponent,
     
   ],
   imports: [
