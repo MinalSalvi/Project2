@@ -1,0 +1,25 @@
+.header-body{
+    /* background-color: #ff0000; */
+    background-image: url(/assets/3582.jpg);
+    /* background-image: url(/assets/bannerimage.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+
+
+}
+.num-1{
+    /* border: 2px solid; */
+    padding: 20px;
+    align-content: center;
+    color: whitesmoke;
+    font-size: large;
+/* make some centering changes ?  */
+}
