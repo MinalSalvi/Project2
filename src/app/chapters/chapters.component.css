@@ -1,0 +1,40 @@
+div {
+    /* width: 100vw; */
+    margin: 10px;
+    /* width: 500px; */
+    /* border: 1px solid; */
+    
+  }
+  .main-class{
+    /* border: 1px solid red; */
+    display: flex;
+    
+    
+    justify-content: center;
+
+  }
+  
+  ol {
+    color: orange;
+   
+  }
+  
+  ol li {
+    position: relative;
+    font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+    /* margin-bottom: 20px; */
+    
+    list-style-type: none;
+
+  }
+  
+  li p {
+    font: 12px/1.5 Helvetica, sans-serif;
+    /* padding-left: 60px; */
+    color: black;
+    
+  }
+  
+  span {
+    position: relative;
+  }

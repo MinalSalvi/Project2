@@ -1,9 +1,9 @@
-.nav-cont{
+/* .nav-cont{
     margin: 0;
     padding: 0;
     display: block;
     /* position: -webkit-sticky;  */
-  position: sticky;
+  /* position: sticky;
   top: 0;
   color: rgb(255, 198, 11);
 }
@@ -27,4 +27,88 @@
 
 .footer{
     margin-top: 7vh;
+}  */
+
+
+.menu{
+    width: 300px;
+    height: auto;
+    /* background: #162447; */
+    /* border-radius: 8px; */
+    overflow: hidden;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, .5); */
+    text-decoration: none;
+    list-style: none;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+}
+
+.menu .btn{
+    display:block;
+    /* padding: 1rem; */
+    /* border-bottom: solid 1px #1b1b2f;
+    border-top: solid 1px #1f4068; */
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 1vh;
+}
+
+.menu .submenu {
+    /* background: #1b1b2f; */
+    overflow: hidden;
+    max-height: 0;
+    text-decoration: none;
+    list-style: none;
+    transition: max-height .8s ease-out;
+}
+
+.menu .submenu a{
+    display:block;
+    /* padding: 1rem; */
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu .submenu a::before{
+    content:'';
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 5px;
+    background:orange;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.menu .submenu a:hover{
+    padding-left: calc(2rem + 5px);
+    color: orange;
+}
+
+.menu .submenu a:hover::before{
+    opacity: 1;
+}
+
+.item:target .submenu{
+    max-height: 20rem;
+}
+
+.footer{
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer img{
+    margin-top: 5vh; /* for now keep like this ask sir about this*/
+    height: 5vh;
+    padding: 4px;
 }

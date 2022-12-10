@@ -9,6 +9,10 @@ import { EducationComponent } from './education/education.component';
 import { UpCounterComponent } from './up-counter/up-counter.component';
 import { RAndSComponent } from './r-and-s/r-and-s.component';
 import { RecentlyAccComponent } from './recently-acc/recently-acc.component';
+import { SubjectsComponent } from './subjects/subjects.component';
+import { FourInOneComponent } from './four-in-one/four-in-one.component';
+import { ChaptersComponent } from './chapters/chapters.component';
+
 
 
 @NgModule({
@@ -20,6 +24,10 @@ import { RecentlyAccComponent } from './recently-acc/recently-acc.component';
     UpCounterComponent,
     RAndSComponent,
     RecentlyAccComponent,
+    SubjectsComponent,
+    FourInOneComponent,
+    ChaptersComponent,
+
     
   ],
   imports: [
